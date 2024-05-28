@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.block-prestation {
+  background-image: url("/public/storage/images/dsc06695.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.block-presentation {
+  background-image: url("/public/storage/images/dsc07191.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.block-coach {
+  background-image: url("/public/storage/images/dsc07182.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block-activite {
+  background-image: url("/public/storage/images/illustration-activite.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block-actualite {
+  background-image: url("/public/storage/images/dcs15654.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block-contact {
+  background-image: url("/public/storage/images/dsc07064.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.block-banner {
+  background-image: url("/public/images/banner-contact.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+body {
+  margin-bottom: 0!important;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.text-primary {
+  color: #689d71;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+.text-submenu {
+  color: #689d71;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.text-button {
+  color: #FFFFFF;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.submenu {
+  display: none;
+}
+
+.has-submenu {
+  position: relative;
+}
+
+li.has-submenu:hover .submenu {
+  display: block;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border: solid 1px #689D71;
+    z-index: 100;
+    width: max-content;
+}
+
+.submenu li {
+    margin-bottom: 5px;
+    border-bottom: solid 1px #689D71;
+}
+
+.bg-activite {
+  background-image: url("/public/images/pattern-blanc.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 64px;
+}
+
+/* h2 {
+  position: relative;
+}
+
+h2.line::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  width: 125%;
+  height: 2px;
+  background-color: #689D71;
+} */
